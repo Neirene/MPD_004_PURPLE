@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#slide1 {
+height: 450px;
+width: 860px;
+background-image: url(../img/topban/01.jpg);
+font-family: "Segoe UI", Verdana;
+color: #FFF;
+padding: 0;
+position: relative;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 20px;
+margin-left: 0px;
+}
+
+.title01 {
+width: 350px;
+height: 100px;
+background-color: #906;
+}
+
+#description01 {
+height: 80px;
+width: 350px;
+font-size: 16px;
+font-style: italic;
+float: right;
+background-color: #906;
+text-align: right;
+margin-top: 200px;
+}
+
+
+#slide2 {
+height: 450px;
+width: 860px;
+background-image: url(../img/topban/02.jpg);
+font-family: "Segoe UI", Verdana;
+color: #FFF;
+padding: 0;
+margin: 0px;
+position: relative;
+}
+
+#slide3 {
+height: 450px;
+width: 860px;
+background-image: url(../img/topban/03.jpg);
+font-family: "Segoe UI", Verdana;
+color: #FFF;
+padding: 0;
+margin: 0px;
+position: relative;
+}

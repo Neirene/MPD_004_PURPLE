@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="jquery.js" type="application/javascript"></script>
+
+        <style type="text/css">
+
+
+#slides {
+	width:900px;
+	height:400px;
+	border: 1px solid #000;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+
+#slides ul {
+	margin-top:0;
+	list-style-type:none;
+	position:relative;
+	padding: 0px;
+}
+
+#slides ul li{
+	width:900px;
+	height:400px;
+	float:left;
+	padding:0px;
+}
+
+
+
+/**********************/
+	
+#relleno {
+	margin:0;
+	background-color:black;
+	width:900px;
+	height:400px;
+	position:relative;
+	overflow:hidden;
+}
+
+#relleno2 {
+	margin:0;
+	background-color:blue;
+	width:900px;
+	height:400px;
+	position:relative;
+	overflow:hidden;
+}
+
+#relleno3 {
+	margin:0;
+	background-color:yellow;
+	width:900px;
+	height:400px;
+	position:relative;
+	overflow:hidden;
+}
+
+
+    	</style>
+    
+    
+    <script type="application/javascript">
+	
+	$(document).ready(function() {
+        
+
+	var velo = 400;
+	var timervelo = 5000;
+	var slider = $("#slides ul"); //obtenemos el width de la lista
+	var slidewidth = $("#slides ul li").width(); //obtenemos el width de CADA LI!
+	var slideamount = $("#slides ul li").length; //obtenemos la cantidad de Li's
+	slider.css("width",(slideamount * slidewidth) + "px");
+
+
+
+
+
+
+	$("#slides ul li:first").before($("#slides ul li:last"));
+	slider.css("left", "-900px");
+
+
+
+	slideLeft = function(velo) {
+$("#caption").hide();
+	
+	$("#slides ul li:last").after($("#slides ul li:first"));
+	$("#slides ul").css("left","0px");
+
+
+	$("#slides ul").stop().animate({left: "-900px"}, velo, function () {
+
+
+	
+		});
+
+	
+	
+	};
+
+
+
+
+	slideRight = function(velo) {
+
+	$("#slides ul").stop().animate({"left" : "0px"},velo,"linear", function() {
+
+
+	$("#slides ul").css("left", "-900px");
+	$("#slides ul li:first").before($("#slides ul li:last"));
+	
+
+		});
+
+	};
+
+
+
+	var run = setInterval("slideLeft()", timervelo);
+
+
+
+	$(".previous").click(function (velo) {
+		slideRight();
+	});
+
+
+	$(".next").click(function (velo) {
+		slideLeft();
+		$("#caption").hide();
+	});
+
+
+
+
+		
+		
+		
+    });
+	
+	
+	</script>
+</head>
+
+<body>
+    <div id="nav">
+        <a href="#" class="previous">prev</a>
+        <a href="#" class="next">next</a>
+        <div class="clear"></div>
+    </div>
+
+<div id="container">
+
+    <div id="slides">
+        <ul name="lista">
+            <li><div id="relleno"><div id="caption">CAPTION TEXT 1</div></div></li>
+            <li><div id="relleno2"><div id="caption">CAPTION TEXT 2</div></div></li>
+            <li><div id="relleno3"><div id="caption">CAPTION TEXT 3</div></div></li>
+        </ul>
+
+    </div>
+ 
+</div>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NOT YET</title>
+<link href="styleweb.css" rel="stylesheet" type="text/css" />
+<link href="css/slides.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js" type="application/javascript"></script>
+
+
+    <script type="application/javascript">
+	
+	$(document).ready(function() {
+        
+
+	var velo = 400;
+	var timervelo = 7000;
+	var slider = $("#slides ul"); //obtenemos el width de la lista
+	var slidewidth = $("#slides ul li").width(); //obtenemos el width de CADA LI!
+	var slideamount = $("#slides ul li").length; //obtenemos la cantidad de Li's
+	slider.css("width",(slideamount * slidewidth) + "px");
+
+
+
+
+
+
+	$("#slides ul li:first").before($("#slides ul li:last"));
+	slider.css("left", "-860px");
+
+
+
+	slideLeft = function(velo) {
+$("#caption").hide();
+	
+	$("#slides ul li:last").after($("#slides ul li:first"));
+	$("#slides ul").css("left","0px");
+
+
+	$("#slides ul").stop().animate({left: "-860px"}, velo, function () {
+
+
+	
+		});
+
+	
+	
+	};
+
+
+
+
+	slideRight = function(velo) {
+
+	$("#slides ul").stop().animate({"left" : "0px"},velo,"linear", function() {
+
+
+	$("#slides ul").css("left", "-860px");
+	$("#slides ul li:first").before($("#slides ul li:last"));
+	
+
+		});
+
+	};
+
+
+
+	var run = setInterval("slideLeft()", timervelo);
+
+
+
+	$(".previous").click(function (velo) {
+		slideRight();
+	});
+
+
+	$(".next").click(function (velo) {
+		slideLeft();
+	});
+
+
+
+
+		
+		
+		
+    });
+	
+	
+	</script>
+
+
+
+</head>
+
+<body>
+
+<div id="container">
+
+<!-- TOP ELEMENTS BEGINS HERE--->
+<div id="logocontainer">
+	<div id="logoblock">&nbsp;</div>
+	<div id="logotext">PURPLE BURST</div>	
+</div>
+
+<div id="nihongobox">日本語</div>
+<div id="sloganbox">&quot;turning simple and random ideas into bursting results since the early dark days of the Internet....&quot;</div>
+
+<div id="menublock">
+	<a href="#" class="item">HOME</a>
+	<a href="#" class="item">PORTFOLIO</a>
+	<a href="#" class="item">ABOUT</a>
+	<a href="#" class="item">CONTACT</a>
+	<a href="#" class="item">DIARY</a>
+</div>
+
+<div id="showtitle">featured contents...</div>
+
+<!---TOP ELEMENTS ENDS HERE --->
+
+
+
+
+<div id="showbox">
+    <div id="slides">
+        <ul name="lista">
+            <li>
+
+			<!-------------->
+			<div id="slide1">
+			
+			<h1 class="title01">We think on the Big Picture</h1>
+			
+			<div id="description01">wheter you want a small company website or a huge dynamic one our project commiment is always to bring you the most awesome results.</div>
+			
+			</div>
+			<!------------->
+
+
+			</li>
+            <li>
+
+			<!-------------->
+			<div id="slide2">
+			
+			<h1 class="title01">We think on the Big Picture</h1>
+			
+			<div id="description01">wheter you want a small company website or a huge dynamic one our project commiment is always to bring you the most awesome results.</div>
+			
+			</div>
+			<!------------->
+
+
+			</li>
+
+            <li>
+
+			<!-------------->
+			<div id="slide3">
+			
+			<h1 class="title01">We think on the Big Picture</h1>
+			
+			<div id="description01">wheter you want a small company website or a huge dynamic one our project commiment is always to bring you the most awesome results.</div>
+			
+			</div>
+			<!------------->
+
+
+			</li>
+
+        </ul>
+
+        
+</div>
+
+<a href="#" class="previous">prev</a>
+<a href="#" class="next">next</a>
+
+
+
+
+</div><!--CLOSING DIV-->
+
+</body>
+</html>

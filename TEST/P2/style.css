@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-color:black;
+margin: 0px;
+}
+
+
+#container {
+height: 750px;
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+padding: 0px;
+position: relative;
+background-image: url(img/toptest1.png);
+background-repeat: no-repeat;
+background-position: right top;
+
+}
+#sloganbox {
+position: absolute;
+height: 69px;
+width: 400px;
+color: #F9618C;
+font-family: "Segoe UI";
+font-style: italic;
+left: 283px;
+top: 31px;
+font-size: 18px;
+}
+
+
+
+#logocontainer {
+float: left;
+margin-top: 10px;
+width: 260px;
+height: 110px;
+}
+
+
+#logoblock {
+width: 35px;
+height: 86px;
+background-color: #f9618c;
+float: left;
+margin-top: 6px;
+margin-bottom: 0px;
+	}
+
+#logotext {
+color: #f9618c;
+font-family: "Segoe UI";
+text-align: left;
+font-size: 55px;
+line-height: 45px;
+width: 210px;
+height: 100px;
+float: left;
+margin-top: 0px;
+margin-bottom: 0px;
+	
+}
+
+#menublock {
+margin-top: 55px;
+width: 150px;
+height: auto;
+float: right;
+margin-right: 100px;
+}
+
+a.item {
+	color: #FFFFFF;
+	float: right;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: "Segoe UI";
+}
+
+a.item:hover {
+color: #F9618C;
+}
+#showtitle {
+position: absolute;
+font-family: "Segoe UI";
+font-size: 36px;
+font-weight: lighter;
+color: #F9618C;
+height: 50px;
+width: 465px;
+text-align: left;
+left: 6px;
+top: 189px;
+font-style: italic;
+text-transform: lowercase;
+}
+
+#showbox {
+float: left;
+height: 450px;
+width: 860px;
+border: 1px solid #F9618C;
+position: absolute;
+z-index: -1;
+left: 1px;
+top: 238px;
+background-color: #333;
+background-image: url(img/fillerspot.png);
+}
+
+#nihongobox {
+color: #FFF;
+border: 1px solid #F9618C;
+position: absolute;
+height: 29px;
+width: 81px;
+left: 780px;
+top: 5px;
+text-align: center;
+line-height: 28px;
+font-weight: lighter;
+font-size: 18px;
+}
+
+#footer {
+background-image: url(img/bottom.png);
+background-repeat: no-repeat;
+background-position: right bottom;
+height: 300px;
+width: 960px;
+margin-right: auto;
+margin-left: auto;
+}

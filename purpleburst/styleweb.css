@@ -1,0 +1,419 @@
+body {
+	background-color: black;
+	margin: 0px;
+	font-family: "Segoe UI", Verdana;
+	color: #FFF;
+	font-size:14px;
+}
+
+#alphacontainer {
+	height: 750px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	position: relative;
+	background-image: url(img/alphaindexbg1.png);
+	background-repeat: no-repeat;
+	background-position: -522px top;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#alphabackground {
+	background-image: url(img/tokyopic.jpg);
+	background-repeat: repeat-x;
+	background-position: left;
+	width: 960px;
+	height: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	position: relative;
+
+}
+#riyodekimasen {
+	position: absolute;
+	height: 21px;
+	width: 362px;
+	left: 402px;
+	top: 5px;
+	background-color: #F9618C;
+	color: #000;
+	font-weight: normal;
+	font-size: 13px;
+	padding: 5px;
+	text-align: center;
+	display: none;
+}
+
+
+
+
+#container {
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	position: relative;
+	background-image: url(img/toptest1.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+#sloganbox {
+	position: absolute;
+	height: 69px;
+	width: 400px;
+	color: #F9618C;
+	font-family: "Segoe UI";
+	font-style: italic;
+	left: 283px;
+	top: 65px;
+	font-size: 18px;
+}
+
+#logocontainer {
+	float: left;
+	margin-top: 45px;
+	width: 260px;
+	height: 110px;
+}
+
+#logoblock {
+	width: 35px;
+	height: 86px;
+	background-color: #f9618c;
+	float: left;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+#logotext {
+	color: #f9618c;
+	font-family: "Segoe UI";
+	text-align: left;
+	font-size: 55px;
+	line-height: 45px;
+	width: 210px;
+	height: 100px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#menublock {
+	margin-top: 55px;
+	width: 130px;
+	height: auto;
+	float: right;
+	margin-right: 100px;
+}
+
+a.item {
+	color: #FFFFFF;
+	float: right;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: "Segoe UI";
+}
+
+a.item:visited {
+	color:#FFFFFF;
+}
+
+a.item:hover {
+	color: #F9618C;
+}
+
+
+#topcontainer {
+	float: left;
+	height: 490px;
+	width: 860px;
+	margin-top: 20px;
+	background-image: url(img/backbg01.jpg);
+	background-repeat: no-repeat;
+	background-position: 500px top;
+	position: relative;
+}
+
+#showtitle {
+	position: absolute;
+	font-family: "Segoe UI";
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	height: 50px;
+	width: 465px;
+	text-align: left;
+	left: 0px;
+	top: 165px;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+#showbox {
+	height: 450px;
+	width: 350px;
+	border: 1px solid #F9618C;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+
+#nihongobox {
+	color: #FFF;
+	border: 1px solid #F9618C;
+	position: absolute;
+	height: 29px;
+	width: 81px;
+	left: 780px;
+	top: 5px;
+	text-align: center;
+	line-height: 28px;
+	font-weight: lighter;
+	font-size: 18px;
+	cursor: default;
+}
+#blogcontents {
+	float: left;
+	height: auto;
+	width: 630px;
+	margin-top: 80px;
+}
+
+#postbody {
+	width: 580px;
+	background-color: #151515;
+	float: left;
+	height: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.internaltitle {
+	font-weight: lighter;
+	color: #F9618C;
+	text-transform: lowercase;
+	font-size: 36px;
+	width: 500px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: italic;
+	text-align: left;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #F9618C;
+	
+}
+
+.internaltitle02 {
+	font-weight: lighter;
+	color: #F9618C;
+	text-transform: lowercase;
+	font-size: 36px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: italic;
+	text-align: left;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #F9618C;
+	width: 100%;
+	
+}
+
+
+#toptext {
+	height: 397px;
+	width: 481px;
+	position: absolute;
+	left: 365px;
+	top: 73px;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+#midtext {
+	height: 414px;
+	width: 437px;
+	position: absolute;
+	left: 4px;
+	top: 71px;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+#midcontainer {
+	float: left;
+	height: 500px;
+	width: 860px;
+	margin-top: 10px;
+	background-image: url(img/backbg02.jpg);
+	background-repeat: no-repeat;
+	background-position: 85px top;
+	position: relative;
+
+}
+
+
+
+
+/*****************************
+SLIDE SUBSYSTEM
+*****************************/
+
+#slides {
+	width: 350px;
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+
+#slides ul {
+	margin-top:0px;
+	list-style-type:none;
+	position:relative;
+	padding: 0px;
+}
+
+#slides ul li{
+	width: 350px;
+	height: 450px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+/**********************/
+	
+#relleno {
+	margin:0;
+	background-color:black;
+	width:860px;
+	height:450px;
+	position:relative;
+	overflow:hidden;
+}
+
+#relleno2 {
+	margin:0;
+	background-color:blue;
+	width:860px;
+	height:450px;
+	position:relative;
+	overflow:hidden;
+}
+
+#relleno3 {
+	margin:0;
+	background-color:yellow;
+	width:860px;
+	height:450px;
+	position:relative;
+	overflow:hidden;
+}
+
+a.previous{
+	cursor:pointer;
+}
+
+
+a.next{
+	cursor:pointer;
+}
+#aboutcontainer {
+	float: left;
+	height: 3000px;
+	width: 860px;
+	position: relative;
+}
+#aboutpic {
+	background-image: url(img/aboutpic.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: absolute;
+	left: -2px;
+	top: 33px;
+	width: 222px;
+	height: 418px;
+}
+#abouttext {
+	position: absolute;
+	top: 31px;
+	left: 229px;
+	width: 602px;
+	height: 222px;
+}
+#abouttitle {
+	height: 52px;
+	width: 604px;
+	position: absolute;
+	left: 232px;
+	top: 2786px;
+}
+
+.standardinttitle {
+	font-weight: lighter;
+	color: #F9618C;
+	text-transform: lowercase;
+	font-size: 24px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: italic;
+	text-align: left;
+	width: 100%;
+	
+}
+
+h2 {
+	color: #E15781;
+	font-weight: lighter;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #E15781;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #E15781;
+	padding-left: 10px;
+	padding-bottom: 3px;
+}
+
+a{
+	color: #E15781;
+}
+
+a:visited{
+	color: #E15781;
+}
+
+#topanchor {
+	background-color: #F9618C;
+	padding: 5px;
+	height: 20px;
+	width: 100px;
+	position: fixed;
+	bottom: 0px;
+}
+
+#topanchor a {
+}
+
+#topanchor a:hover {
+}

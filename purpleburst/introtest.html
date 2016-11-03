@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>introtest</title>
+<link href="css/intro.css" rel="stylesheet" type="text/css" />
+<script type="application/javascript">
+document.write("<link href=styleweb.css rel=stylesheet type=text/css />");
+</script>
+<script src="js/jquery.js" type="application/javascript"></script>
+<script type="application/javascript">
+
+/*
+var currenthour = new Date();
+var hora = currenthour.getHours();
+var minutos = currenthour.getMinutes();
+
+alert(hora + ":" + minutos);
+
+
+if(hora == 10 && minutos == 40) {
+	document.write("Ready for Lunch! a las 40");
+}else if(hora == 10 && minutos == 41) {
+	document.write("Good Morning.... a las 41");
+}
+*/
+
+function mostrar()
+{
+	
+document.getElementById("welcome").style.visibility = "visible";
+
+};
+
+$(document).ready(function() {
+
+
+
+
+$("#welcome").animate({left:80,opacity:1.0},800,function() { 
+
+setTimeout(function() {$("#welcome").animate({left:500,opacity:0.0},500);},3000);
+
+setTimeout(function() {$("#welcome").animate({top:400,left:500,opacity:1.0},800);},4000);
+
+ });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+</script>
+</head>
+
+<body>
+
+<div id="welcome">Good Morning...</div>
+
+</body>
+</html>

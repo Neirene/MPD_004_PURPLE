@@ -1,0 +1,328 @@
+/*
+ Theme Name: Purple Burst v1.0
+ Theme URI: http://purpleburst.com/
+ Description: This is the default theme for Purple Burst
+ Author: Maria Jose Belmonte
+ Author URI: http://purpleburst.com/
+ Version: 1.0
+ Tags: custom made
+
+ License: Personal
+ License URI: none
+
+ Built-in design of my personal blog within my portfolio website
+ Information at my email myriabelmonte AT gmail DOT com
+
+ Aside from that please enjoy the coding of my template!
+ */
+
+
+body {
+	background-color: black;
+	margin: 0px;
+	font-family: "Segoe UI", Verdana;
+	color: #FFF;
+	font-size:14px;
+}
+
+#container {
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+	position: relative;
+	background-image: url(img/toptest1.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	overflow: hidden;
+}
+#sloganbox {
+	position: absolute;
+	height: 69px;
+	width: 400px;
+	color: #F9618C;
+	font-family: "Segoe UI";
+	font-style: italic;
+	left: 283px;
+	top: 65px;
+	font-size: 18px;
+}
+
+#logocontainer {
+	float: left;
+	margin-top: 45px;
+	width: 260px;
+	height: 110px;
+}
+
+#logoblock {
+	width: 35px;
+	height: 86px;
+	background-color: #f9618c;
+	float: left;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+#logotext {
+	color: #f9618c;
+	font-family: "Segoe UI";
+	text-align: left;
+	font-size: 55px;
+	line-height: 45px;
+	width: 210px;
+	height: 100px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#menublock {
+	margin-top: 55px;
+	width: 150px;
+	height: auto;
+	float: right;
+	margin-right: 100px;
+}
+
+a.item {
+	color: #FFFFFF;
+	float: right;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: "Segoe UI";
+}
+
+a.item:hover {
+	color: #F9618C;
+}
+#showtitle {
+	position: absolute;
+	font-family: "Segoe UI";
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	height: 50px;
+	width: 465px;
+	text-align: left;
+	left: 0px;
+	top: 181px;
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+#showbox {
+	float: left;
+	height: 450px;
+	width: 860px;
+	border: 1px solid #F9618C;
+	position: absolute;
+	z-index: -1;
+	left: 1px;
+	top: 238px;
+	background-color: #333;
+	background-image: url(img/fillerspot.png);
+}
+
+#nihongobox {
+	color: #FFF;
+	border: 1px solid #F9618C;
+	position: absolute;
+	height: 29px;
+	width: 81px;
+	left: 780px;
+	top: 5px;
+	text-align: center;
+	line-height: 28px;
+	font-weight: lighter;
+	font-size: 18px;
+}
+#blogcontents {
+	float: left;
+	height: auto;
+	width: 630px;
+	margin-top: 80px;
+}
+
+#postbody {
+	width: 580px;
+	background-color: #151515;
+	float: left;
+	height: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*****************
+BLOG SUBSYSTEM
+******************/
+
+h1.posttitle {
+	font-size: 32px;
+	color: #F9618C;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a.linktitle {
+	color: #F9618C;
+	text-decoration: none;
+}
+
+a.linktitle:hover {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+h3.postdate {
+	font-size: 14px;
+	font-weight: lighter;
+	color: #FDB0FF;
+}
+
+a.postlinks {
+	color: #936;
+	text-decoration: none;
+}
+
+a.postlinks:hover {
+	color: #FFF;
+}
+
+p.post {
+	font-size: 12px;
+	color: #FFF;
+}
+#bloghistory {
+	float: left;
+	width: 630px;
+	font-size: 16px;
+}
+
+#blogmenu {
+	height: auto;
+	width: 200px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 100px;
+	font-size: 14px;
+	color: #C66;
+	border-left: 2px solid #F9618C;
+	padding-left: 10px;
+}
+
+p.navtitles {
+	color: #F9618C;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+ul.navlist {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+a.navlinks {
+	text-decoration: none;
+	color: #936;
+}
+
+a.navlinks:hover {
+	color: #FFF;
+}
+
+a {
+	text-decoration: none;
+	color: #936;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+a.homeside {
+color:black;
+margin-top:2px;
+display:block;
+width:100px;
+height:auto;
+border: 2px solid #F9618C;
+background-color:#F9618C;
+}
+
+a.homeside:hover {
+color:white;
+background-color:#F9618C;
+}
+
+/**********************************
+PICTURES ALIGMENT INSIDE POSTS 
+**********************************/
+
+
+img.alignright {
+float:right; 
+margin:0 0 1em 1em
+}
+
+img.alignleft {
+float:left; 
+margin:0 1em 1em 0
+}
+
+img.aligncenter {display: block; 
+margin-left: auto; 
+margin-right: auto
+}
+
+a img.alignright {
+float:right; 
+margin:0 0 1em 1em
+}
+
+a img.alignleft {
+float:left; 
+margin:0 1em 1em 0
+}
+
+a img.aligncenter {
+display: block; 
+margin-left: auto; 
+margin-right: auto
+}
+
+/****************************
+PICTURE CAPTION PROPERTIES
+****************************/
+
+
+.wp-caption { 
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	font-size:13px; 
+	color: #C99; 
+}
+
+.wp-caption p {
+	border-top: 2px solid #F9618C;
+	text-align:left;
+	font-style:italic;
+}
+
+.gallery-caption p {
+	font-size:13px; 
+	color: #C99; 
+	font-style:italic;
+}
+
+
+
+#content .gallery .gallery-icon img {
+	border: 0px solid #ddd;
+	padding: 6px;
+}

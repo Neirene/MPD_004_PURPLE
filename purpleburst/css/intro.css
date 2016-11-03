@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+#welcome1 {
+	position: absolute;
+	left: -80px;
+	top: 178px;
+	width: 403px;
+	height: 41px;
+	color: white;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-style: italic;
+	opacity: 0.0;
+	z-index: 200;
+}
+
+#welcome2 {
+	position: absolute;
+	left: 98px;
+	top: 232px;
+	width: 450px;
+	height: 41px;
+	color: white;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-style: italic;
+	opacity: 0.0;
+	z-index: 200;
+}
+#welcome3 {
+	position: absolute;
+	left: 208px;
+	top: 288px;
+	width: 672px;
+	height: 41px;
+	color: white;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-style: italic;
+	opacity: 0.0;
+	z-index: 200;
+}
+#welcome4 {
+	position: absolute;
+	left: 729px;
+	top: 340px;
+	width: 363px;
+	height: 41px;
+	color: white;
+	font-size: 27px;
+	text-transform: uppercase;
+	font-style: italic;
+	opacity: 0.0;
+	z-index: 200;
+}
+
+#pink {
+	color:#F9618C;
+}
+
+#contactbox {
+	background-color: #F9618C;
+	height: 277px;
+	width: 253px;
+	position: absolute;
+	left: 1px;
+	top: 430px;
+	z-index: 200;
+	background-image: url(../img/contactbg.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	font-size: 18px;
+	line-height: 3px;
+	text-transform: lowercase;
+	font-style: italic;
+	display: none;
+	
+}
+#phoneblock {
+	float: left;
+	height: 1px;
+	width: 190px;
+	border: 2px solid #1E1E1C;
+	margin-top: 36px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+	margin-left: 15px;
+	color: #FFF;
+	background-color: #333;
+	text-align: right;
+	font-size: 16px;
+	padding-top: 25px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	background-image: url(../img/phoneicon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#twitblock {
+	background-color: #333;
+	float: left;
+	height: 1px;
+	width: 190px;
+	clear: left;
+	border: 2px solid #1E1E1C;
+	margin-top: 12px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+	margin-left: 15px;
+	color: #FFF;
+	text-align: right;
+	padding-top: 25px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	background-image: url(../img/icontwitt.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#mailblock {
+	background-color: #333;
+	float: left;
+	height: 1px;
+	width: 190px;
+	clear: left;
+	border: 2px solid #1E1E1C;
+	margin-top: 12px;
+	margin-right: 15px;
+	margin-bottom: 12px;
+	margin-left: 15px;
+	color: #FFF;
+	text-align: right;
+	padding-top: 25px;
+	padding-right: 5px;
+	padding-bottom: 25px;
+	padding-left: 5px;
+	background-image: url(../img/mailicon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+
+
+#nextlevelbox{
+	border: 1px solid #F9618C;
+	height: 254px;
+	width: 582px;
+	position: absolute;
+	left: 262px;
+	top: 430px;
+	z-index: 200;
+	font-size: 15px;
+	padding: 10px;
+	display: none;
+
+}
+
+#backbgbox {
+	height: 531px;
+	width: 643px;
+	position: absolute;
+	left: 44px;
+	z-index: 100;
+	top: 141px;
+	background-image: url(../img/homebackbox.jpg);
+	background-repeat: no-repeat;
+	background-position: left -50px;
+	display: none;
+}
+
+.introboxtitle {
+	color: #F9618C;
+	font-weight: normal;
+	font-style: italic;
+	text-transform: lowercase;
+	padding-top: 5px;
+	margin: 0px;
+	padding-left: 10px;
+	font-size: 36px;
+}
